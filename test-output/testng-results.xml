@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="79746" started-at="2020-03-12T16:39:42 WIB" finished-at="2020-03-12T16:41:02 WIB">
+  <suite name="Default suite" duration-ms="65070" started-at="2020-03-12T16:52:12 WIB" finished-at="2020-03-12T16:53:18 WIB">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="79746" started-at="2020-03-12T16:39:42 WIB" finished-at="2020-03-12T16:41:02 WIB">
-      <class name="sampleproject.LandscapeTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:sampleproject.LandscapeTests@1f57539]" name="setup" is-config="true" duration-ms="51264" started-at="2020-03-12T16:39:42 WIB" finished-at="2020-03-12T16:40:33 WIB">
+    <test name="Default test" duration-ms="65070" started-at="2020-03-12T16:52:12 WIB" finished-at="2020-03-12T16:53:18 WIB">
+      <class name="sampleproject.PortraitTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:sampleproject.PortraitTests@1f57539]" name="setup" is-config="true" duration-ms="51412" started-at="2020-03-12T16:52:12 WIB" finished-at="2020-03-12T16:53:04 WIB">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="scrollUp()[pri:1, instance:sampleproject.LandscapeTests@1f57539]" name="scrollUp" duration-ms="14456" started-at="2020-03-12T16:40:33 WIB" finished-at="2020-03-12T16:40:48 WIB">
+        <test-method status="PASS" signature="actionSheets()[pri:1, instance:sampleproject.PortraitTests@1f57539]" name="actionSheets" duration-ms="12530" started-at="2020-03-12T16:53:04 WIB" finished-at="2020-03-12T16:53:16 WIB">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrollUp -->
-        <test-method status="PASS" signature="scrollDown()[pri:2, instance:sampleproject.LandscapeTests@1f57539]" name="scrollDown" duration-ms="6459" started-at="2020-03-12T16:40:48 WIB" finished-at="2020-03-12T16:40:54 WIB">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrollDown -->
-        <test-method status="PASS" signature="buttons()[pri:3, instance:sampleproject.LandscapeTests@1f57539]" name="buttons" duration-ms="6443" started-at="2020-03-12T16:40:54 WIB" finished-at="2020-03-12T16:41:01 WIB">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- buttons -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:sampleproject.LandscapeTests@1f57539]" name="teardown" is-config="true" duration-ms="1072" started-at="2020-03-12T16:41:01 WIB" finished-at="2020-03-12T16:41:02 WIB">
+        </test-method> <!-- actionSheets -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:sampleproject.PortraitTests@1f57539]" name="teardown" is-config="true" duration-ms="1081" started-at="2020-03-12T16:53:16 WIB" finished-at="2020-03-12T16:53:18 WIB">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- sampleproject.LandscapeTests -->
+      </class> <!-- sampleproject.PortraitTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
