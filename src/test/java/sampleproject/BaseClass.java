@@ -3,6 +3,7 @@ package sampleproject;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
@@ -51,7 +52,9 @@ public class BaseClass {
 			
 //			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 //			caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "30");
-//			
+			
+			
+		
 			
 		} catch (Exception exp) {
 			System.out.println("Cause is : " + exp.getCause());
